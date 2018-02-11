@@ -17,9 +17,11 @@ public class Egysegmatrix {
                 else {
                     egysegmatrix[i][j] = 0;
                 }*/
+
                 egysegmatrix[i][j] = (i == j) ? 1 : 0;
                 System.out.print(egysegmatrix[i][j] + " ");
             }
+
             System.out.println();
         }
     }

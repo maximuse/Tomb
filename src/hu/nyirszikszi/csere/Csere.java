@@ -27,6 +27,7 @@ public class Csere {
         for (int i = 0; i < tomb.length; i++) {
             System.out.print(tomb[i] + " ");
         }
+
         System.out.println();
 
         return tomb;
@@ -35,7 +36,6 @@ public class Csere {
     private char[] lecserel(char[] tomb, char mit, char mire) {
         for (int i = 0; i < tomb.length; i++) {
             if (i % 2 != 0) {
-                //tomb[i] = tomb[i].replace(mit, mire);
                 tomb[i] = mire;
             }
         }
