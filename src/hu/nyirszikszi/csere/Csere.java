@@ -1,5 +1,5 @@
 // Készíts programot, amely egy 20 elemű tömböt feltölt "a" karakterekkel, majd a tömb minden 2. elemét kicseréli "b"
-// karakterre, majd kiírja egymásmellé az elemeket szóközzel elválasztva!
+// karakterre, majd kiírja egymás mellé az elemeket szóközzel elválasztva!
 
 package hu.nyirszikszi.csere;
 
